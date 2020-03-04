@@ -1,0 +1,27 @@
+# extra deps from https://pypi.org/project/fastai2/
+name: fastai2
+channels:
+- fastai
+- pytorch
+- conda-forge
+- defaults
+dependencies:
+- pyarrow
+- pydicom
+- scikit-image
+# >>> from requirements.txt
+- python-graphviz
+- ipywidgets
+- matplotlib
+- pandas
+- scikit-learn
+# <<<
+- pip
+- pip:
+  - nbdev
+  - kornia
+  - opencv-python
+  - fastai2
+  # >>> from requirements.txt
+  - azure-cognitiveservices-search-imagesearch
+  # <<<
