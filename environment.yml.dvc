@@ -1,0 +1,13 @@
+md5: 4515210980f7c0e57ab838ca0a0ab823
+locked: true
+deps:
+- path: environment.yml
+  repo:
+    url: https://github.com/fastai/fastai2/
+    rev_lock: 240b2acb61b252129cbd0bb4fcff75efbdcf23fb
+outs:
+- md5: 3a4d30b4bd89c04bfff495a9de847427
+  path: environment.yml
+  cache: true
+  metric: false
+  persist: false
